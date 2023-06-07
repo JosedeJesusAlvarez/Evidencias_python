@@ -25,6 +25,8 @@ if manzanasCompradas >=10:
     print("!Tienes descuento¡")
     print((precioManzanas*manzanasCompradas)*.10)
     descuento=((precioManzanas*manzanasCompradas)*.10)
+else:
+    descuento=0
 print(f"Compraste: {manzanasCompradas} y las manzanas cuestan: {precioManzanas}")
 print("Pagas")
 print((precioManzanas*manzanasCompradas)-descuento)
